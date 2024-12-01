@@ -1,13 +1,11 @@
+with Ada.Containers.Vectors;
 with Ada.Strings;
-use Ada.Strings;
-
-with Ada.Strings.Bounded;
 with Ada.Strings.Fixed;
 with Ada.Text_IO;
-use Ada.Text_IO;
 
-with Ada.Containers.Vectors;
 use Ada.Containers;
+use Ada.Strings;
+use Ada.Text_IO;
 
 procedure Main is
     package Int_Vectors is new Vectors (
@@ -16,7 +14,6 @@ procedure Main is
     );
     List1, List2 : Int_Vectors.Vector;
     Sum : Integer := 0;
-    F : File_Type;
 begin
     Sum := 0;
 

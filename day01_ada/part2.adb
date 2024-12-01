@@ -14,7 +14,6 @@ procedure Main is
     );
     List1, List2 : Int_Vectors.Vector;
     Sum : Integer := 0;
-    F : File_Type;
 begin
     Sum := 0;
 
