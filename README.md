@@ -7,7 +7,7 @@ Uses docker to run the different compilers/interpreters. Thanks to @hakatashi's 
 | Day | Language |
 | --- | -------- |
 |   1 | Ada      |
-|   2 |          |
+|   2 | Bash     |
 |   3 |          |
 |   4 |          |
 |   5 |          |
