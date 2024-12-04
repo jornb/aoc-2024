@@ -9,7 +9,7 @@ Uses docker to run the different compilers/interpreters. Thanks to @hakatashi's 
 |   1 | Ada      |
 |   2 | Bash     |
 |   3 | Crystal  |
-|   4 |          |
+|   4 | D        |
 |   5 |          |
 |   6 |          |
 |   7 |          |
