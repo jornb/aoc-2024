@@ -10,7 +10,7 @@ Uses docker to run the different compilers/interpreters. Thanks to @hakatashi's 
 |   2 | Bash     |
 |   3 | Crystal  |
 |   4 | D        |
-|   5 |          |
+|   5 | Elixir   |
 |   6 |          |
 |   7 |          |
 |   8 |          |
