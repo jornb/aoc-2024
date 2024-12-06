@@ -11,7 +11,7 @@ Uses docker to run the different compilers/interpreters. Thanks to @hakatashi's 
 |   3 | Crystal  |
 |   4 | D        |
 |   5 | Elixir   |
-|   6 |          |
+|   6 | F#       |
 |   7 |          |
 |   8 |          |
 |   9 |          |
