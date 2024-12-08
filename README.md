@@ -13,7 +13,7 @@ Uses docker to run the different compilers/interpreters. Thanks to @hakatashi's 
 |   5 | **E**lixir   |
 |   6 | **F**#       |
 |   7 | **G**o       |
-|   8 |              |
+|   8 | **H**askell  |
 |   9 |              |
 |  10 |              |
 |  11 |              |
