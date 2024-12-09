@@ -17,48 +17,52 @@ folder=$(find -name "day${day}_*" -type d)
 language=$(echo $folder | cut -d'_' -f2)
 
 ext=""
-container=""
+image=""
 command=""
 case $language in
     ada)
         ext="adb"
-        container="esolang/ada"
+        image="esolang/ada"
         command="ada"
         ;;
     bash)
         ext="bash"
-        container="esolang/bash-busybox"
+        image="esolang/bash-busybox"
         command="bash-busybox"
         ;;
     crystal)
         ext="cr"
-        container="esolang/crystal"
+        image="esolang/crystal"
         command="crystal"
         ;;
     d)
         ext="d"
-        container="esolang/d-dmd"
+        image="esolang/d-dmd"
         command="d-dmd"
         ;;
     elixir)
         ext="ex"
-        container="esolang/elixir"
+        image="esolang/elixir"
         command="elixir"
         ;;
     fsharp)
         ext="fs"
-        container="esolang/fsharp-dotnet"
+        image="esolang/fsharp-dotnet"
         command="fsharp-dotnet"
         ;;
     go)
         ext="go"
-        container="esolang/golang"
+        image="esolang/golang"
         command="golang"
         ;;
     haskell)
         ext="hs"
-        container="esolang/haskell"
+        image="esolang/haskell"
         command="haskell"
+        ;;
+    io)
+        ext="io"
+        command="io"
         ;;
     *)
         echo "Unsupported language: $language"
@@ -66,7 +70,13 @@ case $language in
         ;;
 esac
 
-if [ -n "$container" ]; then
+# If the image doesn't exist, build it from Dockerfile
+if [ -z "$image" ] && [ -f "$folder/Dockerfile" ]; then
+    image="aoc-$language"
+    docker build -t $image -f $folder/Dockerfile $folder
+fi
+
+if [ -n "$image" ]; then
     cd $folder
-    docker run --rm -i -v "$PWD":/code:ro $container $command /code/part$part.$ext < $input_filename.txt
+    docker run --rm -i -v "$PWD":/code:ro $image $command /code/part$part.$ext < $input_filename.txt
 fi
