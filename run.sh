@@ -64,6 +64,11 @@ case $language in
         ext="io"
         command="io"
         ;;
+    java)
+        ext="java"
+        image="esolang/java"
+        command="java"
+        ;;
     *)
         echo "Unsupported language: $language"
         exit 1
