@@ -69,6 +69,11 @@ case $language in
         image="esolang/java"
         command="java"
         ;;
+    kotlin)
+        ext="kt"
+        image="esolang/kotlin"
+        command="kotlin"
+        ;;
     *)
         echo "Unsupported language: $language"
         exit 1
