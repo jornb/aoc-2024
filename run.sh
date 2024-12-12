@@ -74,6 +74,11 @@ case $language in
         image="esolang/kotlin"
         command="kotlin"
         ;;
+    lua)
+        ext="lua"
+        image="esolang/lua"
+        command="lua"
+        ;;
     *)
         echo "Unsupported language: $language"
         exit 1
@@ -88,5 +93,5 @@ fi
 
 if [ -n "$image" ]; then
     cd $folder
-    docker run --rm -i -v "$PWD":/code:ro $image $command /code/part$part.$ext < $input_filename.txt
+    docker run --rm --name aoc -i -v "$PWD":/code:ro $image $command /code/part$part.$ext < $input_filename.txt
 fi

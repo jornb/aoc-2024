@@ -17,7 +17,7 @@ Uses docker to run the different compilers/interpreters. Thanks to @hakatashi's 
 |   9 | [**I**o](https://iolanguage.org)    |
 |  10 | **J**ava                            |
 |  11 | **K**otlin                          |
-|  12 |                                     |
+|  12 | **L**ua                             |
 |  13 |                                     |
 |  14 |                                     |
 |  15 |                                     |
