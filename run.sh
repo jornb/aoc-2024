@@ -89,6 +89,11 @@ case $language in
         image="esolang/nim-lang"
         command="nim-lang"
         ;;
+    octave)
+        ext="m"
+        image="esolang/octave"
+        command="octave"
+        ;;
     *)
         echo "Unsupported language: $language"
         exit 1

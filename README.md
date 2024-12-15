@@ -20,7 +20,7 @@ Uses docker to run the different compilers/interpreters. Thanks to @hakatashi's 
 |  12 | **L**ua                             |
 |  13 | **M**ATLAB                          |
 |  14 | **N**im                             |
-|  15 |                                     |
+|  15 | **O**ctave                          |
 |  16 |                                     |
 |  17 |                                     |
 |  18 |                                     |
