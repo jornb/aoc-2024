@@ -94,6 +94,11 @@ case $language in
         image="esolang/octave"
         command="octave"
         ;;
+    python)
+        ext="py"
+        image="esolang/python3"
+        command="python3"
+        ;;
     *)
         echo "Unsupported language: $language"
         exit 1
