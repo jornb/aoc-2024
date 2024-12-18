@@ -104,6 +104,11 @@ case $language in
         image="esolang/rust"
         command="rust"
         ;;
+    ruby)
+        ext="rb"
+        image="esolang/ruby"
+        command="ruby"
+        ;;
     *)
         echo "Unsupported language: $language"
         exit 1

@@ -23,7 +23,7 @@ Uses docker to run the different compilers/interpreters. Thanks to @hakatashi's 
 |  15 | **O**ctave                          |
 |  16 | **P**ython                          |
 |  17 | Rust                                |
-|  18 |                                     |
+|  18 | **R**uby                            |
 |  19 |                                     |
 |  20 |                                     |
 |  21 |                                     |
