@@ -11,7 +11,7 @@ if [ ${#day} -eq 1 ]; then
 fi
 
 
-folder=$(find -name "day${day}_*" -type d)
+folder=$(find -maxdepth 1 -name "day${day}_*" -type d)
 
 # Get the language from the folder name, on the format dayXX_language
 language=$(echo $folder | cut -d'_' -f2)
@@ -98,6 +98,11 @@ case $language in
         ext="py"
         image="esolang/python3"
         command="python3"
+        ;;
+    rust)
+        ext="rs"
+        image="esolang/rust"
+        command="rust"
         ;;
     *)
         echo "Unsupported language: $language"
