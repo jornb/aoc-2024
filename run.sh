@@ -109,6 +109,15 @@ case $language in
         image="esolang/ruby"
         command="ruby"
         ;;
+    swift)
+        ext="swift"
+        image="esolang/swift"
+        command="swift"
+        ;;
+    scala)
+        ext="scala"
+        command="./run"
+        ;;
     *)
         echo "Unsupported language: $language"
         exit 1

@@ -24,7 +24,7 @@ Uses docker to run the different compilers/interpreters. Thanks to @hakatashi's 
 |  16 | **P**ython                          |
 |  17 | Rust                                |
 |  18 | **R**uby                            |
-|  19 |                                     |
+|  19 | **S**cala                           |
 |  20 |                                     |
 |  21 |                                     |
 |  22 |                                     |
