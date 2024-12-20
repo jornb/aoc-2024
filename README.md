@@ -25,7 +25,7 @@ Uses docker to run the different compilers/interpreters. Thanks to @hakatashi's 
 |  17 | Rust                                |
 |  18 | **R**uby                            |
 |  19 | **S**cala                           |
-|  20 |                                     |
+|  20 | **T**ypeScript                      |
 |  21 |                                     |
 |  22 |                                     |
 |  23 |                                     |

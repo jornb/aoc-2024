@@ -118,6 +118,10 @@ case $language in
         ext="scala"
         command="./run"
         ;;
+    typescript)
+        ext="ts"
+        command="./run"
+        ;;
     *)
         echo "Unsupported language: $language"
         exit 1
