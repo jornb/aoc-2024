@@ -26,7 +26,7 @@ Uses docker to run the different compilers/interpreters. Thanks to @hakatashi's 
 |  18 | **R**uby                            |
 |  19 | **S**cala                           |
 |  20 | **T**ypeScript                      |
-|  21 |                                     |
+|  21 | C++                                 |
 |  22 |                                     |
 |  23 |                                     |
 |  24 |                                     |
