@@ -122,6 +122,10 @@ case $language in
         ext="ts"
         command="./run"
         ;;
+    cpp)
+        ext="cpp"
+        command="./run"
+        ;;
     *)
         echo "Unsupported language: $language"
         exit 1
