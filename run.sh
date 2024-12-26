@@ -136,6 +136,11 @@ case $language in
         image="esolang/php"
         command="php"
         ;;
+    julia)
+        ext="jl"
+        image="julia:1-bookworm"
+        command="julia"
+        ;;
     *)
         echo "Unsupported language: $language"
         exit 1

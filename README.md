@@ -29,5 +29,5 @@ Uses docker to run the different compilers/interpreters. Thanks to @hakatashi's 
 |  21 | C++                                 |
 |  22 | [**V**](https://vlang.io/)          |
 |  23 | PHP                                 |
-|  24 |                                     |
+|  24 | Julia                               |
 |  25 |                                     |
