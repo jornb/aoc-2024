@@ -131,6 +131,11 @@ case $language in
         image="esolang/vlang"
         command="vlang"
         ;;
+    php)
+        ext="php"
+        image="esolang/php"
+        command="php"
+        ;;
     *)
         echo "Unsupported language: $language"
         exit 1
