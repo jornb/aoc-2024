@@ -141,6 +141,16 @@ case $language in
         image="julia:1-bookworm"
         command="julia"
         ;;
+    zig)
+        ext="zig"
+        image="esolang/zig"
+        command="zig"
+        ;;
+    dart)
+        ext="dart"
+        image="dart:3.5"
+        command="dart run"
+        ;;
     *)
         echo "Unsupported language: $language"
         exit 1

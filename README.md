@@ -30,4 +30,4 @@ Uses docker to run the different compilers/interpreters. Thanks to @hakatashi's 
 |  22 | [**V**](https://vlang.io/)          |
 |  23 | PHP                                 |
 |  24 | Julia                               |
-|  25 |                                     |
+|  25 | Dart                                |
